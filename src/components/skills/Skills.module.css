@@ -1,0 +1,48 @@
+.skills_con {
+    height: 300px;
+    background: #0085FF;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+
+    & .skills_title {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    & .skills_list {
+        display: flex;
+        justify-content: center;
+        /*จัดกึงกล่งแกน x */
+        list-style: none;
+        margin-top: 70px;
+
+        & li {
+            margin: 0 40px;
+            /* จัดระยะ บน-ล่าง 0 และ ซ้าย-ขวา 20px */
+
+            & svg {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills_con{
+        height: auto;
+
+        & .skills_list {
+            flex-direction: column;
+            margin: 50px 0;
+            
+            & li {
+                margin: 20px 0;
+            }
+        }
+    }
+    
+}
