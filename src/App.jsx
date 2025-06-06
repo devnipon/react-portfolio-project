@@ -7,10 +7,10 @@ import AnimatedCursor from 'react-animated-cursor'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Skills from './components/skills/Skills'
-import Services from './components/Services/Services'
+// import Services from './components/Services/Services'
 import Portfolio from './components/Portfolio/Portfolio'
-import Number from './components/Number/Number'
-import Testimonials from './components/Testimonials/Testimonials'
+// import Number from './components/Number/Number'
+// import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
@@ -46,10 +46,10 @@ function App() {
     <Navbar/>
     <Hero />
     <Skills/>
-    <Services />
+    {/* <Services /> */}
     <Portfolio />
-    <Number />
-    <Testimonials />
+    {/* <Number /> */}
+    {/* <Testimonials /> */}
     <Contact />
     <Footer />
     </>

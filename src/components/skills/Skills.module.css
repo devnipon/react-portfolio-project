@@ -20,7 +20,7 @@
         margin-top: 70px;
 
         & li {
-            margin: 0 40px;
+            margin: 0 30px;
             /* จัดระยะ บน-ล่าง 0 และ ซ้าย-ขวา 20px */
 
             & svg {

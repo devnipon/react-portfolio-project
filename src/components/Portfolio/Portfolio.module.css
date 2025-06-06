@@ -1,11 +1,11 @@
 .port_con {
     max-width: 1170px;
-    height: 900px;
+    height: 980px;
     margin: 0 auto;
     overflow: hidden;
 
     & .port_title {
-        font: 32px;
+        font-size: 36px;
         margin-top: 45px;
         text-align: center;
         font-weight: bold;
@@ -14,24 +14,84 @@
     & .port_list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center; /* move picture to center for x axis */
+        justify-items: center;
+        /* move picture to center for x axis */
+        margin: 30px 0;
 
-        & .port_item {
-            margin-top: 60px;
+        & .port_items {
+            width: 300px;
+            background-color: #f4f9fd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 30px;
+            transition: 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            padding: 20px;
+            margin: 20px 0;
+            border: none;
+            outline: none;
             
+            /* outline: 1px solid red; */
+
+            &:hover {
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+                img {
+                    transform: scale(1.1);
+                }
+            }
 
             & img {
-                width: 300px;
-                height: 300px;
-                border-radius: 20px;
-                object-fit: cover;
-                /* fix scale picture */
+                height: 100px;
+                margin: 20px 0;
+                transition: transform 0.3s ease;
+                /* outline: 1px solid red; */
+            }
+
+            & .pino_img {
+                border-radius: 8px;
+            }
+
+            & h3 {
+                font-size: 24px;
+                margin-top: 10px;
+                color: black;
+                /* outline: 1px solid red; */
             }
 
             & p {
-                font-size: 16px;
-                font-weight: bold;
-                margin: 10px 0;
+                font-size: 18px;
+                color: #000000;
+                text-align: center;
+                padding: 10px;
+                height: 120px;
+            }
+
+            & ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+                margin-top: 15px;
+                margin-bottom: 5px;
+
+                & li {
+                    border-radius: 15px;
+                    padding: 5px 10px;
+                    color: #fff;
+                    margin: 0 10px;
+                    background: linear-gradient(145deg, #0085FF, #6e36f1);
+                    /* outline: 1px solid red; */
+                }
+            }
+
+            & .port_last {
+                text-align: center;
+                margin-top: 150px;
+                color: #333;
             }
         }
     }

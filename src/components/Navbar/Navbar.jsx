@@ -25,7 +25,7 @@ function Navbar() {
                     </ul>
 
                     <div className={styles.button}>
-                        <a href='#'>Hire Me</a>
+                        <a href='https://line.me/ti/p/ky4dVraEos' target='blank'>Hire Me</a>
                     </div>
                 </div>
 

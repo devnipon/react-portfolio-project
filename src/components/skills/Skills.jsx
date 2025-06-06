@@ -33,12 +33,6 @@ function Skills() {
                 <FaPython />
             </li>
             <li>
-                <SiFastapi />
-            </li>
-            <li>
-                <SiSqlite />
-            </li>
-            <li>
                 <BsFiletypeSql />
             </li>
         </ul>
