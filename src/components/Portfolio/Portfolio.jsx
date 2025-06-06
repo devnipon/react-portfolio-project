@@ -5,9 +5,6 @@ import pinoImg from './img/pino.png'
 import cerImg from './img/cer.png'
 import tiktokImg from './img/tiktok.png'
 import portfolioImg from './img/portfolio.png'
-import Tilt from 'react-parallax-tilt';
-import { FaTiktok } from "react-icons/fa";
-
 
 function Portfolio() {
     return (
