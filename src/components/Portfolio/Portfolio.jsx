@@ -79,7 +79,7 @@ function Portfolio() {
 
                 <a href="https://github.com/devnipon/hotel-kiosk-client" className={styles.port_items} target="_blank">
                     <img src={pinoImg} className={styles.pino_img} />
-                    <h3>Hotel Kiosk Client System </h3>
+                    <h3>Hotel Kiosk System </h3>
                     <p> Built a hotel self check-in kiosk with hardware integration using Python and FastAPI. Deployed at Pino Latte Hotel, Khao Kho.</p>
                     <ul className={styles.skill_con}>
                         <li>
