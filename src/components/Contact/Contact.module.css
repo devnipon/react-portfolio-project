@@ -1,17 +1,23 @@
 .contact_wrapper {
-    height: 500px;
+    height: 100%;
+    min-height: 500px;
     background-color: #0085FF;
     color: #fff;
     overflow: hidden;
 
     & .contact_con {
+        width: 100%;
         max-width: 1170px;
         margin: 50px auto 0;
         display: flex;
         justify-content: space-between;
+        padding: 20px;
+        /* outline: 1px solid red; */
 
         & .contact_info {
-            width: 420px;
+            width: 100%;
+            max-width: 420px;
+            gap: 10px;
 
             & h3 {
                 font-size: 32px;
@@ -57,7 +63,8 @@
         }
 
         & .contact_from {
-            width: 520px;
+            width: 100%;
+            max-width: 520px;
 
             & label {
                 display: block;

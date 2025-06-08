@@ -1,8 +1,11 @@
 .port_con {
+    width: 100%;
     max-width: 1170px;
-    height: 980px;
+    height: 100%;
+    min-height: 980px;
     margin: 0 auto;
     overflow: hidden;
+    padding: 20px;
 
     & .port_title {
         font-size: 36px;
@@ -13,7 +16,9 @@
 
     & .port_list {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        /* grid-template-columns: 1fr 1fr 1fr; */
         justify-items: center;
         /* move picture to center for x axis */
         margin: 30px 0;
