@@ -1,14 +1,14 @@
 footer {
     text-align: center;
     width: 100%;
-    display: block;
+    display: block !important;
 }
 
 @media screen and (max-width: 480px) {
     footer {
         text-align: center;
         width: 100%;
-        display: block;
+        display: block !important;
     }
 
 }
