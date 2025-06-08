@@ -62,8 +62,8 @@ function Certificate() {
           </div>
           <div className={styles.cer_list}>
             <img src={sqlImg} />
-            <h3>Building LINE Chatbot with ChatGPT and Gemini</h3>
-            <p>Create a chatbot on LINE using ChatGPT and Gemini API, integrated with the LINE Messaging API, and develop it to respond automatically using techniques commonly applied in real-world AI and developer workflows.</p>
+            <h3>LINE Chatbot with ChatGPT and Gemini</h3>
+            <p>สร้างแชทบอทบน LINE โดยใช้ ChatGPT และ Gemini API พร้อมเชื่อมต่อกับ LINE Messaging API และพัฒนาให้ตอบสนองแบบอัตโนมัติด้วยเทคนิคที่ใช้จริงในงานสาย AI และ Dev</p>
           </div>
         </div>
 
