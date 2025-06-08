@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'; 
 import styles from './Navbar.module.css'
 import { FaBars } from 'react-icons/fa'
 
@@ -15,13 +16,14 @@ function Navbar() {
             <div className={styles.container}>
                 <div className={styles.nav_con}>
                     <div className={styles.logo}>
-                        <a href='#'>JD PORT</a>
+                        <Link to='/'>JD PORT</Link>
+                        {/* <a href='#'>JD PORT</a> */}
                     </div>
 
                     <ul>
-                        <li><a href='#'>Skill</a></li>
-                        <li><a href='#'>Portfolio</a></li>
-                        <li><a href='#'>Contact</a></li>
+                        <li><Link to='/skills'>Skill</Link></li>
+                        <li><Link to='/Portfolio'>Portfolio</Link></li>
+                        <li><Link to='/Contact'>Contact</Link></li>
                     </ul>
 
                     <div className={styles.button}>
@@ -34,12 +36,12 @@ function Navbar() {
                 {isToggled ? (  
                     <>
                     <ul className={styles.mobile_menu}>
-                        <li><a href='#'>Skill</a></li>
-                        <li><a href='#'>Portfolio</a></li>
-                        <li><a href='#'>Contact</a></li>
+                        <li><Link to='/skills'>Skill</Link></li>
+                        <li><Link to='/Portfolio'>Portfolio</Link></li>
+                        <li><Link to='/Contact'>Contact</Link></li>
                     </ul>
                     <div className={styles.mobile_button}>
-                        <a href='#'>Hire Me</a>
+                        <a href='https://line.me/ti/p/ky4dVraEos' target='blank'>Hire Me</a>
                     </div>
                     </>  
                 ) : null}  

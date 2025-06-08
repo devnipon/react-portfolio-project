@@ -15,7 +15,7 @@ function Contact() {
                     <p className={styles.contact_email}><FaEnvelope /> nipon.aemioo@gmail.com </p>
                 </div>
                 <div className={styles.contact_from}>
-                    <from action="">
+                    <form action="">
                         <div className={styles.input_group}>
                             <div>
                                 <label htmlFor="first name">First Name</label>
@@ -31,7 +31,7 @@ function Contact() {
                         <label htmlFor='message'>Your message</label>
                         <textarea name="" id='' cols="30" rows="10" placeholder='Type here'></textarea>
                         <button type="submit">Submit</button>
-                    </from>
+                    </form>
                 </div>
             </div>
 

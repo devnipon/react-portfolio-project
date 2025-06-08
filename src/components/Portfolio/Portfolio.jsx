@@ -5,6 +5,8 @@ import pinoImg from './img/pino.png'
 import cerImg from './img/cer.png'
 import tiktokImg from './img/tiktok.png'
 import portfolioImg from './img/portfolio.png'
+import { Link } from 'react-router-dom'; 
+
 
 function Portfolio() {
     return (
@@ -29,7 +31,7 @@ function Portfolio() {
                     </ul>
                 </a>
 
-                <a href="https://oak-spicydev.github.io/spicyDev/certification.html" className={styles.port_items} target="_blank">
+                <Link to='/Certificate' className={styles.port_items}>
                     <img src={cerImg} />
                     <h3>Certificates</h3>
                     <p>A curated collection of certificates earned from programming courses, bootcamps, and self-learning initiatives.</p>
@@ -41,9 +43,23 @@ function Portfolio() {
                             CSS
                         </li>
                     </ul>
-                </a>
+                </Link>
 
-                <a href="https://oak-spicydev.github.io/spicyDev/health-tools.html" className={styles.port_items} target="_blank">
+                {/* <a href="https://oak-spicydev.github.io/spicyDev/certification.html" className={styles.port_items} target="_blank">
+                    <img src={cerImg} />
+                    <h3>Certificates</h3>
+                    <p>A curated collection of certificates earned from programming courses, bootcamps, and self-learning initiatives.</p>
+                    <ul className={styles.skill_con}>
+                        <li>
+                            HTML
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                    </ul>
+                </a> */}
+
+                <a href="https://devnipon.github.io/health-tools/" className={styles.port_items} target="_blank">
                     <img src={healthImg} />
                     <h3>Health Calculator</h3>
                     <p> Health calculation tools such as BMI, BMR, TDEE calorie estimation, and other health tracking features.</p>
@@ -60,7 +76,7 @@ function Portfolio() {
                     </ul>
                 </a>
 
-                <a href="https://oak-spicydev.github.io/Scores/" className={styles.port_items} target="_blank">
+                <a href="https://devnipon.github.io/Scores/" className={styles.port_items} target="_blank">
                     <img src={tiktokImg} />
                     <h3>TikTok Clip Voting</h3>
                     <p> A voting platform for TikTok clips with an admin backend and automatic score summary. <br /> (Password: Admin-01) </p>
