@@ -55,6 +55,17 @@ function Certificate() {
             <p>หลักสูตรพื้นฐานการใช้งาน SQL สำหรับทุกคน ครอบคลุมการจัดการฐานข้อมูล การเขียนคำสั่ง SELECT, JOIN, GROUP BY และฟังก์ชันสรุปข้อมูล เหมาะสำหรับผู้เริ่มต้นที่ต้องการเข้าใจการวิเคราะห์ข้อมูลจากฐานข้อมูลโดยตรง</p>
           </div>
         </div>
+        
+        <div className={styles.cer_item}>
+          <div className={styles.cer_skill}>
+            <ul><li>AI & Chatbot</li></ul>
+          </div>
+          <div className={styles.cer_list}>
+            <img src={sqlImg} />
+            <h3>Building LINE Chatbot with ChatGPT and Gemini</h3>
+            <p>Create a chatbot on LINE using ChatGPT and Gemini API, integrated with the LINE Messaging API, and develop it to respond automatically using techniques commonly applied in real-world AI and developer workflows.</p>
+          </div>
+        </div>
 
         
 

@@ -3,7 +3,6 @@
     height: auto;
     margin: 0 auto;
     overflow: hidden;
-    overflow: hidden;
 
 
     & .cer_con {
@@ -11,12 +10,14 @@
         grid-template-columns: 1fr 1fr;
         justify-content: space-between;
         padding: 10px;
+        gap: 20px;
 
         & .cer_item {
-            width: 500px;
-            height: 500px;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
             background-color: #f5f6fc;
-            margin: 30px 0;
+            margin: 20px 0;
             border-radius: 15px;
             padding: 20px;
             position: relative;
@@ -57,21 +58,27 @@
                 /* outline: 1px solid red; */
 
                 & img {
-                    width: 400px;
+                    width: 100%;
+                    max-width: 400px;
                     border-radius: 10px;
 
                 }
 
                 & h3 {
-                    font-size: 20px;
+                    width: 100%;
+                    max-width: 400px;
+                    text-align: center;
+                    font-size: 18px;
                     margin: 20px 0;
                     color: #333333;
                 }
 
                 & p {
-                    width: 400px;
+                    width: 100%;
+                    max-width: 400px;
                     text-align: center;
                     color: #333333;
+                    margin-bottom: 20px;
                 }
             }
 
@@ -80,4 +87,50 @@
         }
 
     }
+}
+
+@media screen and (max-width: 480px) {
+    .cer_wrapper {
+        max-width: 100%;
+        padding: 20px;
+
+        & .cer_con {
+            display: flex;
+            flex-direction: column;
+            
+
+            & .cer_item {
+                width: 100%;
+                max-width: none;
+                
+            }
+
+            & .cer_list {
+                /* outline: 1px solid red; */
+               
+                & img {
+                    width: 100%;
+
+                }
+
+                & h3 {
+                    width: 100%;
+                    max-width: none;
+                    font-size: 16px; 
+                }
+
+                & p {
+                    width: 100%;
+                    max-width: none; 
+                    word-wrap: break-word; /* เพิ่ม word wrap */
+                    overflow-wrap: break-word; /* สำหรับภาษาไทย */
+                    line-height: 1.4; /* ลด line height ใน mobile */
+                    font-size: 13px; 
+                    padding: 0 5px; 
+
+                }
+            }
+        }
+    }
+    
 }
