@@ -1,14 +1,16 @@
 footer {
-    text-align: center !important;
-    width: 100% !important;
-    display: block !important;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 20px 0;
 }
 
 @media screen and (max-width: 480px) {
     footer {
-        text-align: center !important;
-        width: 100% !important;
-        display: block !important;
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: 20px 0;
     }
 
 }
