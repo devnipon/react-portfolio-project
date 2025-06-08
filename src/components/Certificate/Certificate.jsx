@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Certificate.module.css'
-import pythonImg from './img/Python.jpg'
+import pythonImg from './img/python.jpg'
 import htmlImg from './img/html.png'
 import javaScriptImg from './img/javaScript.png'
 import sqlImg from './img/sql.jpg'
