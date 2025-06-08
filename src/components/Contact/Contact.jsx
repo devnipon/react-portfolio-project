@@ -3,18 +3,23 @@ import styles from './Contact.module.css'
 import { FaPhone, FaEnvelope } from 'react-icons/fa6'
 
 function Contact() {
+        const handleSubmit = (e) => {
+        e.preventDefault(); // ป้องกันการ submit form จริง
+        alert('ระบบกำลังปรับปรุง รอติดตามเร็วๆนี้');
+    }
+
     return (
         <div className={styles.contact_wrapper}>
             <div className={styles.contact_con}>
                 <div className={styles.contact_info}>
                     <h3>Get in touch</h3>
-                    <p className={styles.contact_desc}>Looking for someone curious, committed, and eager to grow? I’d love to hear about any opportunities or projects where I can contribute and grow with the team.</p>
+                    <p className={styles.contact_desc}>Looking for someone curious, committed, and eager to grow? <br />I’d love to hear about any opportunities or projects where I can contribute and grow with the team.</p>
                     <p className={styles.contact_address}>Ramintra Bangkhen Bangkok, Thailand</p>
                     <p className={styles.contact_phone}><FaPhone />(+66) 86 936 9963 </p>
                     <p className={styles.contact_email}><FaEnvelope /> nipon.aemioo@gmail.com </p>
                 </div>
                 <div className={styles.contact_from}>
-                    <form action="">
+                    <form onSubmit={handleSubmit}>
                         <div className={styles.input_group}>
                             <div>
                                 <label htmlFor="first name">First Name</label>
