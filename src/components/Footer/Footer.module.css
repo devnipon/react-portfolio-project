@@ -1,17 +1,14 @@
 footer {
-    height: 60px;
-    overflow: hidden;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center !important;
-    /* outline: 1px solid red; */
+    text-align: center;
+    width: 100%;
+    display: block;
 }
 
 @media screen and (max-width: 480px) {
     footer {
-        text-align: center !important;
+        text-align: center;
+        width: 100%;
+        display: block;
     }
-    
+
 }
