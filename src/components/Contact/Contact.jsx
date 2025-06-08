@@ -8,9 +8,8 @@ function Contact() {
             <div className={styles.contact_con}>
                 <div className={styles.contact_info}>
                     <h3>Get in touch</h3>
-                    <p className={styles.contact_desc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eius eligendi in laboriosam delectus ipsum inventore alias dolorem ducimus aliquid.</p>
-                    <p className={styles.contact_address}>123 Main Street
-                        Bangkok, Thailand</p>
+                    <p className={styles.contact_desc}>Looking for someone curious, committed, and eager to grow? I’d love to hear about any opportunities or projects where I can contribute and grow with the team.</p>
+                    <p className={styles.contact_address}>Ramintra Bangkhen Bangkok, Thailand</p>
                     <p className={styles.contact_phone}><FaPhone />(+66) 86 936 9963 </p>
                     <p className={styles.contact_email}><FaEnvelope /> nipon.aemioo@gmail.com </p>
                 </div>

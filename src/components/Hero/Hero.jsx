@@ -3,6 +3,8 @@ import styles from './Hero.module.css'
 import { FaGithub, FaLinkedinIn, FaFacebookF } from 'react-icons/fa6'
 import { TypeAnimation } from 'react-type-animation'
 import Tilt from 'react-parallax-tilt';
+import cvSheet from './pdf/cv.pdf'
+import { TbFileCv } from "react-icons/tb";
 
 function hero() {
     return (
@@ -34,9 +36,9 @@ function hero() {
                             I am also committed to continuous self-improvement to stay up to date with the latest technologies.
                         </p>
                         <ul className={styles.hero_social}>
-                            <li><a href='#'><FaGithub /></a> </li>
-                            <li><a href='#'><FaLinkedinIn /></a> </li>
-                            <li><a href='#'><FaFacebookF /></a> </li>
+                            <li><a href='https://github.com/devnipon/' target="blank"><FaGithub /></a> </li>
+                            <li><a href='http://www.linkedin.com/in/nipon-aemioo' target="blank"><FaLinkedinIn /></a> </li>
+                            <li><a href={cvSheet} target="blank" rel="noopener noreferrer"><TbFileCv /></a> </li>
                         </ul>
                     </div>
                     <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>

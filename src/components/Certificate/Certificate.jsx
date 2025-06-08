@@ -66,10 +66,6 @@ function Certificate() {
             <p>สร้างแชทบอทบน LINE โดยใช้ ChatGPT และ Gemini API พร้อมเชื่อมต่อกับ LINE Messaging API และพัฒนาให้ตอบสนองแบบอัตโนมัติด้วยเทคนิคที่ใช้จริงในงานสาย AI และ Dev</p>
           </div>
         </div>
-
-        
-
-
       </div>
     </div>
   )
