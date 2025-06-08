@@ -5,13 +5,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     /* outline: 1px solid red; */
 }
 
 @media screen and (max-width: 480px) {
     footer {
-        /* text-align: center; */
+        text-align: center !important;
     }
     
 }
