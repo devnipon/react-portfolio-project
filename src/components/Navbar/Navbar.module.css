@@ -28,9 +28,15 @@ nav {
         justify-content: space-between;
         align-items: center;
 
+
         & .logo {
             & a {
                 text-decoration: none;
+                font-weight: bold;
+            }
+
+            :hover {
+                text-decoration: underline;
                 font-weight: bold;
             }
         }
@@ -45,6 +51,10 @@ nav {
                 & a {
                     text-decoration: none;
                 }
+            }
+
+            :hover {
+                text-decoration: underline;
             }
         }
 
@@ -63,6 +73,7 @@ nav {
 
             &:hover {
                 box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+                font-weight: bold;
             }
 
             & a {
@@ -132,7 +143,10 @@ nav {
 }
 
 @media screen and (min-width: 481px) {
-    .mobile_menu, .bars, .mobile_button {
+
+    .mobile_menu,
+    .bars,
+    .mobile_button {
         display: none;
     }
 }
