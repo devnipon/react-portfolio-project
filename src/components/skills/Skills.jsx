@@ -3,7 +3,7 @@ import styles from './Skills.module.css'
 import { FaSquareJs, FaReact, FaSass, FaGitAlt, FaNode, FaPython, FaGithub   } from 'react-icons/fa6'
 import { TiHtml5 } from "react-icons/ti";
 import { DiCss3 } from "react-icons/di";
-import { SiFastapi, SiSqlite } from "react-icons/si";
+import { RiNextjsLine } from "react-icons/ri";
 import { BsFiletypeSql } from "react-icons/bs";
 
 function Skills() {
@@ -22,6 +22,9 @@ function Skills() {
             </li>
             <li>
                 <FaReact />
+            </li>
+            <li>
+                <RiNextjsLine />
             </li>
             <li>
                 <FaNode />
